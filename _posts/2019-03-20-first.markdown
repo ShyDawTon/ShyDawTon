@@ -1,0 +1,28 @@
+---
+title: "第一次撰寫文章"
+layout: post
+date: 2019-03-20 11:21
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- elements
+star: true
+category: blog
+author: shyton
+description: Markdown summary with different options
+---
+{% highlight raw%}
+舒服
+{% endhighlight %}
+# Hello world
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
