@@ -29,5 +29,5 @@ description: 心情小語
 # 架設Gitpage的辛酸血淚史
 因為之前有在Blogger寫了不少文章，要從Blogger轉到gitpage勢必要花不少時間，而架設gitpage十分麻煩，首先要先去jekyll網站下載主題範本，接著開一個分支到自己的git中，架設環境(電腦要安裝ruby、bundler、jekyll)，還會遇到編碼問題，花好多時間上網搜尋解決辦法，終於成功架設這個網站。
 
-<img class="shyton-image" src="{{page.blogImage}}/indexPage.png">
+<img class="shyton-image" src="{{site.url}}/{{page.blogImage}}/indexPage.png">
 <figcaption class="caption">shyton的主頁</figcaption>
