@@ -1,28 +1,33 @@
 ---
-title: "第一次撰寫文章"
+title: "第一次使用Gitpage撰寫文章"
 layout: post
 date: 2019-03-20 11:21
-image: /assets/images/markdown.jpg
-headerImage: false
+image: /assets/BlogImages/2019-03-20/github-pages.jpg
+headerImage: true
+blogImage: /assets/BlogImages/2019-03-20
 tag:
-- markdown
-- elements
-star: true
+- 程式相關
+- 心情小語
+star: false
 category: blog
 author: shyton
-description: Markdown summary with different options
+description: 心情小語
 ---
-{% highlight raw%}
-舒服
-{% endhighlight %}
-# Hello world
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+# 有Blogger還不好嗎?
+老實說第一次使用Blogger時，我覺得Blogger是一個很好的平台，Blogger有一些優點包含：
+1. 有免費的網域空間
+2. 畫面簡單，適合新手使用
+3. 能修改或自訂CSS
+4. 能修改HTML，所以可以去除技術提供等不必要的區塊
 
-</body>
-</html>
+不過Blogger卻有一些缺點，包含：
+1. 畫面過於簡陋，比較少花俏的畫面
+2. 寫程式碼過於麻煩(似乎不能使用markdown)
+
+而Gitpage能下載jekyll的主題範本，有好多我喜歡的主題可以用，相較於Blogger有更多的花樣可以使用，對於喜歡網頁設計的我來說這無非是一個展現自己的好平台。
+
+# 架設Gitpage的辛酸血淚史
+因為之前有在Blogger寫了不少文章，要從Blogger轉到gitpage勢必要花不少時間，而架設gitpage十分麻煩，首先要先去jekyll網站下載主題範本，接著開一個分支到自己的git中，架設環境(電腦要安裝ruby、bundler、jekyll)，還會遇到編碼問題，花好多時間上網搜尋解決辦法，終於成功架設這個網站。
+
+<img class="shyton-image" src="{{page.blogImage}}/indexPage.png">
+<figcaption class="caption">shyton的主頁</figcaption>
